@@ -1,0 +1,15 @@
+.clear{clear:both;}
+.btn-danger{
+    position: absolute;
+    top:15px;
+    right: 15px;
+    border:0;
+    background-color:#e74c3c;
+    color:#FFF;
+    padding: 10px 20px;
+    transition: .8s;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #c0392b;
+}
