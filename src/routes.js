@@ -7,8 +7,8 @@ import Lista from './pages/sistema/';
 const Routes = () => (
 	<BrowserRouter>
 		<Switch>
-			<Route exact path="/" component={Login} />
-			<Route exact path="/list" component={Lista} />
+			<Route exact path="/admin" component={Login} />
+			<Route exact path="/admin/list" component={Lista} />
 		</Switch>
 	</BrowserRouter>
 );
