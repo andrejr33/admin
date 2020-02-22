@@ -24,7 +24,7 @@ function Sistema() {
 		if(keyAuth){
 			await api.get(`/checkAuth/${keyAuth}`)
 			.then(res => {
-				if(res.data == false){
+				if(res.data === false){
 					localStorage.removeItem("auth");
 					history.push("/");
 				}

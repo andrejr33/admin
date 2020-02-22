@@ -6,7 +6,7 @@ function checkToken(){
 	const getToken = localStorage.getItem('token').
 	const token = api.get(`checkAuth/${getToken}`)
 	.then(res =>{	
-		if(token == true){
+		if(token === true){
 			return <Redirect to='/somewhere'/>;
 		} else{
 			alert("Login ou senha incorretos!");
